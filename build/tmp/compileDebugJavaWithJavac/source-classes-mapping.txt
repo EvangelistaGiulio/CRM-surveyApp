@@ -1,0 +1,24 @@
+com/example/questionario/BackgroundWorkerSel.java
+ com.example.questionario.BackgroundWorkerSel
+com/example/questionario/BackgroundWorkerReg.java
+ com.example.questionario.BackgroundWorkerReg
+com/example/questionario/BuildConfig.java
+ com.example.questionario.BuildConfig
+com/example/questionario/BackgroundWorkerQuest.java
+ com.example.questionario.BackgroundWorkerQuest
+com/example/questionario/CRM.java
+ com.example.questionario.CRM
+com/example/questionario/Domande.java
+ com.example.questionario.Domande
+com/example/questionario/login.java
+ com.example.questionario.login
+com/example/questionario/BackgroundWorkerCRM.java
+ com.example.questionario.BackgroundWorkerCRM
+com/example/questionario/MainActivity.java
+ com.example.questionario.MainActivity
+com/example/questionario/result.java
+ com.example.questionario.result
+com/example/questionario/azienda.java
+ com.example.questionario.azienda
+com/example/questionario/BackgroundWorker.java
+ com.example.questionario.BackgroundWorker
