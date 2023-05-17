@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".azienda"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/linear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@color/black"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Numero dipendenti per ogni città"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="italic"/>
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barChart"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="341dp" />
+
+                <TextView
+                    android:layout_marginTop="45dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="italic"
+                    android:textSize="17sp"
+                    android:text="Percentuale di dipedendenti maschi e \ndipendenti femmine in azienda"/>
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="244dp"
+                    android:layout_marginTop="20dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_trstip"
+                        android:textSize="15sp"
+                        android:text="Media degli stipendi\nper ordine gerarchico"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_treta"
+                        android:layout_toRightOf="@id/tv_trstip"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="15sp"
+                        android:text="Media età dei\ndipendenti"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_stip"
+                        android:textColor="@color/white"
+                        android:layout_below="@id/tv_trstip"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="€"
+                        android:layout_marginLeft="130dp"
+                        android:textColor="@color/white"
+                        android:layout_below="@id/tv_trstip"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_eta"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/tv_treta"
+                        android:layout_toRightOf="@id/tv_stip"
+                        android:layout_marginLeft="190dp"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="30dp"
+                    android:text="Visione del CRM"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vai"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:onClick="toCRM"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+

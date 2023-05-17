@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Questionario</string>
+    <string name="d1">D.1 Vorrebbe ricevere notifiche, in tempo reale, riguardanti tutte le novità che la azienda ha da offrire?</string>
+    <string name="d2">D.2 Sarebbe interessato ad un servizio di assistenza 24/24h per quanto concerne ciò che l\'azienda ha da offrire? (a pagamento)</string>
+    <string name="d3">D.3 Ha interessi nel ramo del make-up?</string>
+    <string name="d4">D.4 Vorrebbe fornire periodicamentre dati sulla sua espeirenza con questa impresa?</string>
+    <string name="d5">D.5 Si interessa di arte e rappresentazioni teatrali?</string>
+    <string name="d6">D.6 È attratto dal campo della moda?</string>
+    <string name="d7">D.7 Vorrebbe essere aggiornato sulle promozioni e sulle offerte che l\'attività ha da offrire?</string>
+    <string name="d8">D.8 È iscritto ad uno o più social media tra quelli elencati di seguito: Facebook, Instagram ?</string>
+    <string name="d9">D.9 Viaggia spesso per il mondo per motivi di lavoro o svago?</string>
+    <string name="d10">D.10 Sarebbe interessato ad un servizio di assistenza nel solo orario lavorativo mattutino, dalle ore 7 alle ore 14?</string>
+
+    <string name="r1">-fornisce un servizio di comunicazione col cliente atto ad avvertirlo nel caso in cui ci siano novità importanti che potrebbero interessarlo.</string>
+    <string name="r2">-agevola il cliente nelle attività aziendali di cui richiede i servigi in qualsiasi orario della giornata lavorativa.</string>
+    <string name="r3">-fornisce al cliente coupon di un negozio di make-up nel caso in cui sia tale da un certo periodo di tempo (scegliere il suddetto periodo di tempo in base alle necessità azeindali), per esprimere gratitudine per la sua fedeltà all\'azienda.</string>
+    <string name="r4">-è capace di personalizzare al massimo l\'esperienza del cliente con l\'azienda in base ai dati raccolti attraverso un documento apposito.</string>
+    <string name="r5">-consegna al cliente biglietti di rappresentazioni teatrali o artistiche nel caso in cui sia tale da un certo periodo di tempo (scegliere il suddetto periodo di tempo in base alle necessità azeindali), per esprimere gratitudine per la sua fedeltà all\'azienda.</string>
+    <string name="r6">-offre al cliente coupon di un negozio di moda nel caso in cui sia tale da un certo periodo di tempo (scegliere il suddetto periodo di tempo in base alle necessità azeindali), per esprimere gratitudine per la sua fedeltà all\'azienda.</string>
+    <string name="r7">-comunica al cliente tutte le promozioni ed offerte che l\'impresa sta adottando in quel momento.</string>
+    <string name="r8">-fornisce al cliente ulteriori bonus in quanto contribuente alla crescita della notorietà dell\'azienda.</string>
+    <string name="r9">-provvede ad offrire al cliente, nel caso in cui sia tale da un certo periodo di tempo (scegliere il suddetto periodo di tempo in base alle necessità azeindali), biglietti di viaggio con destinazione a scelta del cliente, per esprimere gratitudine per la sua fedeltà all\'azienda.</string>
+    <string name="r10">-agevola il cliente nelle attività aziendali di cui richiede i servigi nell\'unità di tempo prestabilita.</string>
+</resources>
